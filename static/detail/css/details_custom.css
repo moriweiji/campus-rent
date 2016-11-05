@@ -1,0 +1,160 @@
+body {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+    background-color: rgb(254, 240, 215);
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.bg{
+  background-color: rgb(254, 240, 209);
+}
+
+/* 顶部固定菜单栏 */
+.ui.header{
+    position: absolute;
+    top:80px;
+    padding-left: 110px;
+    font-style:normal;
+    font-family:Microsoft YaHei
+    font-size: 1px;
+    color: rgb(254, 240, 215);
+}
+.ui.top.fixed.inverted.menu {
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ui.top.fixed.menu * {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+}
+
+.ui.top.fixed.menu .my-logo-name {
+    font-size: 20px;
+    color: rgb(254, 240, 215);
+}
+
+.ui.top.fixed.menu .my-logo-name:hover {
+    color: #FCC416;
+    font-weight: bold;
+}
+
+.ui.top.fixed.menu .my-login-button {
+    padding-right: 30px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.ui.top.fixed.menu .my-login-button:hover {
+    color: #FCC416;
+    font-weight: bold;
+}
+
+.ui.top.fixed.menu .ui.button.my-register-button {
+    padding: 7px 21px 8px 21px;
+    background-color: #FCC416;
+}
+
+.ui.top.fixed.menu .ui.button.my-register-button span {
+    margin-left: 13.1px;
+    color: #654303;
+    font-size: 16px;
+    font-weight: normal;
+}
+.massive.ui.button{
+  background-color: rgb(255, 193, 0);
+}
+.ui.vertical.basic.segment.banner{
+  position: relative;
+  margin-top: 0px;
+}
+.ui.vertical.basic.segment.content{
+  position:relative;;
+  margin-top: -40px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  background-color: rgb(255, 252, 219);
+}
+.four.wide.column{
+  background-color: transparent;
+  font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+}
+.ui.vertical.menu.right{
+  border: none;
+  background-color: transparent;
+}
+
+footer.ui.vertical.basic.very.padded.segment{
+  position: relative;;
+  background-color: rgb(255, 252, 219);
+}
+footer.ui.padded.segment {
+    padding-top: 32px;
+    padding-bottom: 26px;
+}
+
+footer.ui.segment * {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+}
+
+footer.ui.segment > .ui.container {
+    width: 879px;
+}
+
+footer.ui.segment .ui.header {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer.ui.segment .ui.grid > .column .ui.menu > .item {
+    color: #979797;
+    font-size: 12px;
+}
+
+footer.ui.segment .ui.grid > .column .ui.menu > .item:hover {
+    color: #FCC416;
+    font-weight: bold;
+}
+
+footer.ui.segment .my-contact {
+    color: #979797;
+    font-size: 12px;
+    line-height: inherit;
+}
+
+footer.ui.segment .my-contact .my-email {
+    color: #979797;
+}
+
+footer.ui.segment .my-contact .my-email:hover {
+    color: #FCC416;
+    font-weight: bold;
+}
+
+footer.ui.segment .ui.divider {
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+footer.ui.segment .ui.grid.my-statement {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer.ui.segment .ui.grid.my-statement * {
+    color: #979797;
+}
+
+footer.ui.segment .ui.grid.my-statement > .column {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+footer.ui.segment .ui.grid.my-statement > .column span {
+    font-size: 13px;
+}
+
+footer.ui.segment .my-mugglecoding:hover {
+    color: #FCC416!important;
+}
