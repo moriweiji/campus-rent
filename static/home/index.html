@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>首页</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css">
+        <link rel="stylesheet" href="css/my.css" media="screen" title="no title">
+    </head>
+    <body>
+        <!-- 顶部固定菜单栏 -->
+        <nav class="ui top fixed inverted two item borderless menu">
+            <div class="item">
+                <a href="" style="line-height: 1">
+                    <div class="ui bottom aligned image">
+                        <img src="images/logo.png" alt="logo" />
+                        <span class="my-logo-name" style="margin-left: 9.1px">校园租</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <div class="my-login-button">
+                        登录
+                    </div>
+                </a>
+                <div class="ui circular button my-register-button">
+                    <div class="ui bottom aligned image">
+                        <img src="images/key_icon.png" alt="register icon" style="display: inline-block" />
+                        <span>注册</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner -->
+        <header class="ui vertical basic segment">
+            <img src="images/cover.png" alt="Banner" class="ui image" />
+            <nav class="ui center aligned vertical basic segment my-search-segment">
+                <div class="my-search-button">
+                    <div id="school-select" class="ui search selection dropdown">
+                        <input type="hidden" name="school">
+                        <img src="images/triangle_icon.png" alt="dropdown icon" class="dropdown icon" />
+                        <div class="default text">想去哪个学校附近租房？选择学校名字</div>
+                        <div class="menu">
+                            <div class="item" data-value="QHDX">清华大学</div>
+                            <div class="item" data-value="BJDX">北京大学</div>
+                            <div class="item" data-value="RMDX">人民大学</div>
+                            <div class="item" data-value="BJYD">北京邮电</div>
+                        </div>
+                    </div>
+                    <button type="button" name="button" class="ui right attached button">搜索</button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- my-content -->
+        <div class="ui vertical basic segment my-content">
+            <div class="ui container">
+                <h2 class="ui header">精选优质房源</h2>
+                <div class="ui three link cards">
+                    <div class="card">
+                        <img src="images/img1.png" alt="" class="image" />
+                        <div class="content">
+                            <span class="center aligned header">人民大学附近房源</span>
+                            <div class="ui divider"></div>
+                            <p>
+                                宇宙中心五道口附近，方便出行、购物，适合陪读、考研、校外住宿。
+                            </p>
+                        </div>
+                        <div class="ui center aligned top right attached label">
+                            温馨两局
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/img2.png" alt="" class="image" />
+                        <div class="content">
+                            <span class="center aligned header">清华大学附近房源</span>
+                            <div class="ui divider"></div>
+                            <p>
+                                宇宙中心五道口附近，方便出行、购物，适合陪读、考研、校外住宿。
+                            </p>
+                        </div>
+                        <div class="ui center aligned top right attached label">
+                            朝南
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/img3.png" alt="" class="image" />
+                        <div class="content">
+                            <span class="center aligned header">北京大学附近房源</span>
+                            <div class="ui divider"></div>
+                            <p>
+                                宇宙中心五道口附近，方便出行、购物，适合陪读、考研、校外住宿。
+                            </p>
+                        </div>
+                        <div class="ui center aligned top right attached label">
+                            舒适宜居
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui container">
+                <h2 class="ui header">毗邻学校周边</h2>
+                <div class="ui three link cards">
+                    <div class="card">
+                        <img src="images/img4.png" alt="" class="image" />
+                        <div class="content">
+                            <span class="center aligned header">北京大学附近房源</span>
+                            <div class="ui divider"></div>
+                            <p>
+                                宇宙中心五道口附近，方便出行、购物，适合陪读、考研、校外住宿。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/img5.png" alt="" class="image" />
+                        <div class="content">
+                            <span class="center aligned header">清华大学附近房源</span>
+                            <div class="ui divider"></div>
+                            <p>
+                                宇宙中心五道口附近，方便出行、购物，适合陪读、考研、校外住宿。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/img6.png" alt="" class="image" />
+                        <div class="content">
+                            <span class="center aligned header">北京邮电大学附近房源</span>
+                            <div class="ui divider"></div>
+                            <p>
+                                宇宙中心五道口附近，方便出行、购物，适合陪读、考研、校外住宿。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="ui vertical basic padded segment">
+            <div class="ui container">
+                <div class="ui equal width grid">
+                    <div class="column">
+                        <h5 class="ui header">关于我们</h5>
+                        <div class="ui vertical text menu">
+                            <a class="item">常见问题</a>
+                            <a class="item">联系我们</a>
+                            <a class="item">加入我们</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h5 class="ui header">热门房源</h5>
+                        <div class="ui vertical text menu">
+                            <a class="item">北京大学</a>
+                            <a class="item">清华大学</a>
+                            <a class="item">人民大学</a>
+                            <a class="item">北京邮电</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h5 class="ui header">关注我们</h5>
+                        <div class="ui vertical text menu">
+                            <a class="item">关注微博</a>
+                            <a class="item">关注微信</a>
+                            <a class="item">关注头条号</a>
+                            <a class="item">关注知乎</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                            <h5 class="ui header">反馈问题</h5>
+                            <p class="my-contact">
+                                欢迎写邮件向我们反馈<br>
+                                邮箱地址：<br>
+                                <a href="mailto:hi@mugglecoding.com" class="my-email">hi@mugglecoding.com</a>
+                            </p>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <div class="ui two column grid my-statement">
+                    <div class="column">
+                        <span>Developed by <a href="http://www.mugglecoding.com/static/index.html#/" target="_blank" class="my-mugglecoding">Mugglecoding</a> Team 3 Group 37</span>
+                    </div>
+                    <div class="right aligned column">
+                        <span>京ICP备15047012号-2</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" charset="utf-8"></script>
+        <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            $('#school-select')
+                .dropdown()
+            ;
+        </script>
+    </body>
+</html>

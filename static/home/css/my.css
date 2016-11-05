@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+body {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+}
+
+
+/* 顶部固定菜单栏 */
+
+.ui.top.fixed.inverted.menu {
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ui.top.fixed.menu * {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+}
+
+.ui.top.fixed.menu .my-logo-name {
+    font-size: 28px;
+}
+
+.ui.top.fixed.menu .my-logo-name:hover {
+    color: #FCC416;
+    font-weight: bold;
+}
+
+.ui.top.fixed.menu .my-login-button {
+    padding-right: 30px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.ui.top.fixed.menu .my-login-button:hover {
+    color: #FCC416;
+    font-weight: bold;
+}
+
+.ui.top.fixed.menu .ui.button.my-register-button {
+    padding: 7px 21px 8px 21px;
+    background-color: #FCC416;
+}
+
+.ui.top.fixed.menu .ui.button.my-register-button:hover {
+    background-color: rgb(242, 186, 12);
+}
+
+.ui.top.fixed.menu .ui.button.my-register-button span {
+    margin-left: 13.1px;
+    color: #654303;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+/* banner */
+
+header.ui.segment {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header.ui.segment * {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+}
+
+header.ui.segment .ui.segment.my-search-segment {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: rgba(252, 195, 22, 0.8);
+    font-size: 0;
+}
+
+header.ui.segment .ui.segment.my-search-segment .my-search-button {
+    height: 63px;
+}
+
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.dropdown {
+    top: -5px;
+    width: 458px;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 20px;
+}
+
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.dropdown > .default.text,
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.dropdown > .search,
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.dropdown > .text {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.dropdown > .menu.transition {
+    left: 1px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: none;    /* 暂时先这样 */
+    border: none;
+    box-shadow: none;
+}
+
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.dropdown > .menu.transition > .item {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    font-size: 20px;
+}
+
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.dropdown > .dropdown.icon {
+    top: 45%;
+}
+
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.button {
+    width: 119px;
+    height: 100%;
+    padding-left: 1.5em;
+    background-color: #8DC63F;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: none!important;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+}
+
+header.ui.segment .ui.segment.my-search-segment .my-search-button .ui.button:hover {
+    background-color: rgb(121, 178, 43);
+}
+
+
+/* my-content */
+
+.ui.segment.my-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url("images/photo_bg.png");
+    background-position: 50% 93%;
+    background-size: cover;
+}
+
+.ui.segment.my-content * {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+}
+
+.ui.segment.my-content > .ui.container {
+    width: 879px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+
+.ui.segment.my-content > .ui.container:first-child {
+    margin-top: 0;
+}
+
+.ui.segment.my-content > .ui.container:last-child {
+    margin-bottom: 0;
+}
+
+.ui.segment.my-content > .ui.container > .ui.header {
+    margin-bottom: 24px;
+    font-size: 26px;
+}
+
+.ui.segment.my-content > .ui.container > .ui.cards > .card {
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.ui.segment.my-content > .ui.container > .ui.cards > .card > .image {
+    height: 114px;
+    border-radius: 10px 10px 0 0!important;
+    object-fit: cover;
+}
+
+.ui.segment.my-content > .ui.container > .ui.cards > .card > .ui.top.right.label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 76px;
+    background-color: #F4C32A;
+    border-radius: 0 10px 0 0!important;
+    color: #FFF;
+}
+
+.ui.segment.my-content > .ui.container > .ui.cards > .card > .content > .header {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+    font-size: 18px;
+}
+
+.ui.segment.my-content > .ui.container > .ui.cards > .card > .content > .ui.divider {
+    width: 110.1px;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ui.segment.my-content > .ui.container > .ui.cards > .card > .content > p {
+    width: 227px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #9B9B9B;
+    font-size: 14px;
+}
+
+
+/* footer */
+
+footer.ui.padded.segment {
+    padding-top: 32px;
+    padding-bottom: 26px;
+}
+
+footer.ui.segment * {
+    font-family: SourceHanSansSC-Normal, "Microsoft Yahei Light", "Microsoft Yahei", sans-serif;
+}
+
+footer.ui.segment > .ui.container {
+    width: 879px;
+}
+
+footer.ui.segment .ui.header {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer.ui.segment .ui.grid > .column .ui.menu > .item {
+    color: #979797;
+    font-size: 12px;
+}
+
+footer.ui.segment .ui.grid > .column .ui.menu > .item:hover {
+    color: #FCC416;
+    font-weight: bold;
+}
+
+footer.ui.segment .my-contact {
+    color: #979797;
+    font-size: 12px;
+    line-height: inherit;
+}
+
+footer.ui.segment .my-contact .my-email {
+    color: #979797;
+}
+
+footer.ui.segment .my-contact .my-email:hover {
+    color: #FCC416;
+    font-weight: bold;
+}
+
+footer.ui.segment .ui.divider {
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+footer.ui.segment .ui.grid.my-statement {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer.ui.segment .ui.grid.my-statement * {
+    color: #979797;
+}
+
+footer.ui.segment .ui.grid.my-statement > .column {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+footer.ui.segment .ui.grid.my-statement > .column span {
+    font-size: 13px;
+}
+
+footer.ui.segment .my-mugglecoding:hover {
+    color: #FCC416!important;
+}
